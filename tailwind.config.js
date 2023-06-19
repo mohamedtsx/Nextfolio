@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      width: {
+        "min-75vw-400": "min(75vw, 400px)" 
+      },
       colors: {
         darkblue: {
           0: "#1b242f",
