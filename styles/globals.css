@@ -13,9 +13,8 @@
   }
 
   nav a {
-      @apply hover:text-golden focus:text-golden transition
+      @apply hover:text-gold focus:text-gold transition
   }
-
 
 }
 
