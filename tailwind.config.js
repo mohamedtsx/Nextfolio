@@ -13,7 +13,8 @@ module.exports = {
           1: "#252934"
         },
         pink: "#e31b6d",
-        golden: "#FFD100" 
+        golden: "#FFD100",
+        green: "#00FF00"
       }
     },
   },
