@@ -16,5 +16,24 @@
       @apply hover:text-gold focus:text-gold transition
   }
 
+  /* humbugger menu animation */
+  .drop, .drop span {
+    transition: all 250ms ease-in-out;
+  }
+  .drop.open {
+    transform: rotate(135deg);
+  }
+  .drop.open span:nth-child(2) {
+    top: 50%;
+    transform: translate(-1px, -50%);
+  }
+  .drop.open span:nth-child(1) {
+    width: 24px;
+    transform: rotate(45deg)  translate(7px, -6px) scale(0.75);
+  }
+  .drop.open span:nth-child(3) {
+    width: 24px;
+    transform: rotate(-45deg) translate(9px, 4px) scale(0.75);
+  }
 }
 
