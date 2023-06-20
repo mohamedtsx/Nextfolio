@@ -15,10 +15,20 @@ module.exports = {
           "0%": { transform: "translateY(0) rotate(45deg)" },
           "50%": { transform: "translateY(30px) rotate(45deg)" },
           "100%": { transform: "translateY(10px) rotate(45deg)" }
+        }, 
+        menu: {
+          "0%": {transform: "translateX(100%)"},
+          "100%": {transform: "translateX(0)"}
+        },
+        darkbg: {
+          "0%": {opacity: 0},
+          "100%": {opacity: 1}
         }
       },
       animation: {
-        drop: "drop 300ms forwards"
+        drop: "drop 300ms forwards",
+        menu:  "menu 300ms forwards",
+        darkbg: "darkbg 250ms forwards"
       },
       colors: {
         darkblue: {

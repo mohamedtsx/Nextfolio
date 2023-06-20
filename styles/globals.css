@@ -12,11 +12,12 @@
       font-family: 'Raleway', sans-serif;
   }
 
-  nav a {
+  nav a, 
+  menu a {
       @apply hover:text-gold focus:text-gold transition
   }
 
-  /* humbugger menu animation */
+  /* hamburger menu animation */
   .drop, .drop span {
     transition: all 250ms ease-in-out;
   }
