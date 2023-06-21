@@ -1,8 +1,10 @@
+import Hero from "@/components/hero/hero.component"
 
 
 export default function Home() {
   return (
     <>
+      <Hero />
       {
         ['home', 'about', 'projects', 'contact'].map(el => {
           return(
