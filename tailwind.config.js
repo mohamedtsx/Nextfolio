@@ -38,12 +38,13 @@ module.exports = {
       },
       colors: {
         darkblue: {
-          0: "#1b242f",
+          0: "#0a192f",
           1: "#252934"
         },
         pink: "#e31b6d",
         gold: "#FFD100",
         green: "#00FF00"
+        // green: "#64ffda"
       }
     }
   },
