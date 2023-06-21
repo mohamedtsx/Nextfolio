@@ -41,10 +41,10 @@ module.exports = {
           0: "#0a192f",
           1: "#252934"
         },
-        pink: "#e31b6d",
         gold: "#FFD100",
-        green: "#00FF00"
-        // green: "#64ffda"
+        green: "#00FF00",
+        graytext: "#616161",
+        graytitle: "#444649"
       }
     }
   },

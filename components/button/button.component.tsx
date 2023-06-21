@@ -10,7 +10,7 @@ type ButtonProps = {
 const Button = ({ children, className,otherProps }: ButtonProps) => {
 
     return(
-        <button className={`${className} transition px-6 py-2 border border-green rounded-lg hover:bg-green hover:text-white focus:text-white hover:bg-opacity-20 uppercase font-medium tracking-wider flex justify-center items-center `} {...otherProps}>
+        <button className={`${className} transition lg:px-6 lg:py-2  border border-green rounded-lg hover:bg-green hover:bg-opacity-20 uppercase font-medium tracking-wider flex justify-center items-center lg:text-lg text-medium py-2 px-4`} {...otherProps}>
             { children }
         </button>
     )

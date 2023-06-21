@@ -7,13 +7,13 @@ import Link from "next/link";
 const Hero = () => {
 
     return(
-        <section id="home" className="hero flex justify-center items-center text-lg h-screen bg-darkblue-0 text-white">
-            <h1 className="flex justify-center flex-col items-center">
-                <div className="text-center text-[42px] leading-[48px] mb-5">
+        <section id="home" className="hero flex justify-center items-center h-screen bg-darkblue-0 text-white">
+            <div className="flex justify-center flex-col items-center">
+                <h1 className="text-center text-2xl lg:text-[42px] lg:leading-[48px] mb-5">
                     Hello, I'm <span className="text-gold font-medium">Mohamed Khalid.</span>
                     <br/> 
                     I'm a front-end web developer
-                </div>
+                </h1>
                 <Link href="#about">
                     <Button className="hero-button">
                         projects
@@ -27,13 +27,14 @@ const Hero = () => {
                         />
                     </Button>
                 </Link>
-            </h1>
+            </div>
             <Image 
                 src={FloatingLight}
                 width={240}
                 height={240}
                 alt="light"
-                className="hidden sm:inline-block absolute bottom-12 right-12 animate-light"
+                className="hidden sm:inline-block absolute bottom-12 right-12 animate-light select-none"
+                draggable="false"
             />
         </section>
     )

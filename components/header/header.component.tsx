@@ -3,6 +3,8 @@ import Link from "next/link";
 import Logo from "@/static/my-logo-transparentbg.png"
 import { useState } from "react";
 import Drop from "../drop/drop.component";
+import Button from "../button/button.component";
+
 
 const Header = () => {
     const [scrollToDown, setScrollToDown] = useState(false);
@@ -39,7 +41,11 @@ const Header = () => {
                     <Link href="#about">about</Link>
                     <Link href="#projects">projects</Link>
                     <Link href="#contact">contact</Link>
-                    <Link href="#" className="transition px-4 py-2 border border-green rounded-lg text-sm hover:bg-green hover:text-white focus:text-white hover:bg-opacity-20">resume</Link>
+                    <Link href="#" className="hover:text-white focus:text-white">
+                        <Button className="scale-90">
+                            resume
+                        </Button>
+                    </Link>
                 </nav>
                 <Drop />
             </div>
