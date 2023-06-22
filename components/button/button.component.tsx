@@ -1,13 +1,10 @@
-import { ButtonHTMLAttributes, ReactNode } from "react";
+import { FC, ButtonHTMLAttributes } from "react";
 
 
-type ButtonProps = {
-    children: ReactNode,
-    className?: string,
-    otherProps?: ButtonHTMLAttributes<HTMLButtonElement>
-}
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>
 
-const Button = ({ children, className,otherProps }: ButtonProps) => {
+
+const Button:FC<ButtonProps> = ({ children, className, ...otherProps }) => {
 
     return(
         <button className={`${className} transition lg:px-6 lg:py-2  border border-green rounded-lg hover:bg-green hover:bg-opacity-20 uppercase font-medium tracking-wider flex justify-center items-center lg:text-lg text-medium py-2 px-4 whitespace-nowrap`} {...otherProps}>
