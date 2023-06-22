@@ -1,6 +1,6 @@
 import Hero from "@/components/hero/hero.component"
 import About from "@/components/about/about.component"
-
+import Projects from "@/components/projects/projects.component"
 
 
 export default function Home() {
@@ -8,8 +8,10 @@ export default function Home() {
     <>
       <Hero />
       <About />
+      <Projects />
+
       {
-        ['projects', 'contact'].map(el => {
+        ['contact'].map(el => {
           return(
 
             <section key={el} id={el} className="bg-slate-300">

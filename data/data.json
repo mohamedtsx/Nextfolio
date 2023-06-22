@@ -1,5 +1,17 @@
 {
-    "project": [],
+    "projects": [
+        {
+            "id": "",
+            "name": "",
+            "tools": [],
+            "description": "",
+            "links": {
+                "github": "",
+                "live": ""
+            }
+
+        }
+    ],
     "skills": [
         "HTML",
         "CSS",
