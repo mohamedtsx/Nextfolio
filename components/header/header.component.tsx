@@ -25,7 +25,7 @@ const Header = () => {
 
     return(
         <header className={`${scrollToDown ? 'sm:-translate-y-16': ''} transition bg-darkblue-0 select-none sm:fixed h-16 w-full z-50`}>
-            <div className="container max-w-7xl m-auto flex justify-between items-center h-full px-4  text-white">
+            <div className="container h-full max-w-7xl px-4 flex justify-between items-center  text-white">
                 <a href="/" className="text-xl tracking-wider flex justify-center items-center gap-1 pr-4 capitalize whitespace-nowrap">
                     <Image
                         src={Logo}

@@ -6,6 +6,9 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    container: {
+      center: true
+    },
     extend: {
       width: {
         "min-75vw-400": "min(75vw, 400px)" 
@@ -43,8 +46,12 @@ module.exports = {
         },
         gold: "#FFD100",
         green: "#00FF00",
-        graytext: "#616161",
-        graytitle: "#444649"
+        graybg: "rgba(153, 153, 153, 0.2)",
+        gray: {
+          title: "#444649",
+          text: "#616161",
+          light: "#f5f5f5"
+        }
       }
     }
   },
