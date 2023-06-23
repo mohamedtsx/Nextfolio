@@ -38,9 +38,9 @@ const Header = () => {
                 </a>
                 <nav className="sm:flex gap-4 items-center uppercase hidden">
                     <Link href="/">home</Link>
-                    <Link href="#about">about</Link>
-                    <Link href="#projects">projects</Link>
-                    <Link href="#contact">contact</Link>
+                    <Link href="/#about">about</Link>
+                    <Link href="/#projects">projects</Link>
+                    <Link href="/#contact">contact</Link>
                     <Link href="#" className="hover:text-white focus:text-white">
                         <Button className="scale-90">
                             resume

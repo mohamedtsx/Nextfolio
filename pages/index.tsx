@@ -14,7 +14,7 @@ export default function Home() {
         ['contact'].map(el => {
           return(
 
-            <section key={el} id={el} className="bg-slate-300">
+            <section key={el} id={el} className="section bg-slate-300">
               <div className="container">
                 <h1>{el}</h1>
               </div>

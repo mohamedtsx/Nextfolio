@@ -10,7 +10,7 @@ const About = () => {
     
 
     return(
-        <section id="about">
+        <section id="about" className="section">
             <div className="container h-full max-w-7xl px-4  flex flex-col items-stretch">
                 <Title>about</Title>
                 <div className="h-full flex flex-col md:flex-row  lg:gap-20 gap-5">

@@ -12,7 +12,7 @@
   body {
       font-family: 'Raleway', sans-serif;
   }
-  section {
+  .section {
     @apply text-lg min-h-screen py-24 text-gray-text
   }
 
@@ -74,18 +74,11 @@
   .project-card-icon {
     @apply transition block w-6 opacity-80 hover:opacity-100
   }
-
-  /* .active-project-card >*:nth-child(1) {
-    transition: transform 1s ease-in;
-  }
-  .active-project-card >*:nth-child(2) {
-    transition: transform 1s ease-in;
-  } */
   .active-project-card:hover >*:nth-child(1) {
     top: 50%;
     transform: translate(-50%, -50%);
   }
-  .active-project-card:hover :nth-child(2) {
+  .active-project-card:hover >*:nth-child(2) {
     transform: translateY(0);
   }
 

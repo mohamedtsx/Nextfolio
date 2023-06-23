@@ -7,7 +7,7 @@ import Link from "next/link";
 const Hero = () => {
 
     return(
-        <section id="home" className="hero bg-darkblue-0 text-white h-screen">
+        <section id="home" className="section hero bg-darkblue-0 text-white h-screen">
             <div className="container h-full flex flex-col justify-center items-center">
                 <div className="flex justify-center flex-col items-center">
                     <h1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-[42px] lg:leading-[48px] mb-5 text-white">
