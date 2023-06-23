@@ -6,11 +6,10 @@
 
 @layer base {
   html {
-      scroll-behavior: smooth !important;
-      
+    scroll-behavior: smooth !important;
   }
   body {
-      font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
   .section {
     @apply text-lg min-h-screen py-24 text-gray-text

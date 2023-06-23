@@ -13,7 +13,7 @@ const Projects = () => {
                 <Title>projects</Title>
 
                 <div>
-                    {projects.map(el => <ProjectCard project={el} />)}
+                    {projects.map(el => <ProjectCard key={el.id} project={el} />)}
                 </div>
             </div>
         </section>

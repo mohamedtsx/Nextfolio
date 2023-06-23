@@ -54,7 +54,7 @@ module.exports = {
         }
       },
       backgroundImage: {
-        "crown-clothes": "url(https://media.licdn.com/dms/image/D4D2DAQHL_BWzfsrcSA/profile-treasury-image-shrink_800_800/0/1686054583717?e=1688050800&v=beta&t=IP1XxMh_3UW61635GCHbkNibCwufehoygzGr4CeSuSI)"
+        "crown-clothing": "url(/static/projects/crown-clothing.png)"
       }
     }
   },

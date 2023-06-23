@@ -9,19 +9,11 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
-
-      {
-        ['contact'].map(el => {
-          return(
-
-            <section key={el} id={el} className="section bg-slate-300">
-              <div className="container">
-                <h1>{el}</h1>
-              </div>
-            </section>
-          )
-        })
-      }
+      <section id="contact" className="section bg-slate-300">
+        <div className="container">
+          <h1>contact</h1>
+        </div>
+      </section>
     </>
   )
 }
