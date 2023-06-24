@@ -55,6 +55,9 @@ module.exports = {
       },
       backgroundImage: {
         "crown-clothing": "url(/static/projects/crown-clothing.png)"
+      },
+      gridTemplateColumns: {
+        "minmax": "repeat(auto-fit, minmax(390px, 1fr))"
       }
     }
   },

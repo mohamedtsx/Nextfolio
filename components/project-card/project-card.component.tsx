@@ -35,8 +35,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 
 
     return(
-        <div className={`w-1/3 h-64 relative bg-${id} bg-cover`}>
-            <div className=" clear-both"></div>
+        <div className={` h-72 relative bg-crown-clothing bg-cover bg-center`}>
             <div className="active-project-card relative transition-opacity duration-500 w-full h-full bg-white opacity-0 hover:opacity-100 overflow-hidden">
                 <div className="transition-all  duration-500 flex flex-col justify-center items-center absolute top-0 left-1/2 -translate-x-1/2">
                     <Link href={`/${id}`}>
@@ -45,7 +44,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
                     <span>{core.join(" / ")}</span>
                 </div>
                 <div className="transition duration-500 w-full h-10 absolute bottom-0 left-0 flex justify-between items-center px-2 bg-darkblue-0 text-white translate-y-full">
-                    <label className="text-xl font-medium capitalize">{name}</label>
+                    <label className="text-xl font-medium lowercase">{name}</label>
                     <div className="flex justify-center items-center gap-2">
                         <a href={`${github}`} className="project-card-icon " aria-label="github link" target="_blank">
                             <IconGitHub/>
