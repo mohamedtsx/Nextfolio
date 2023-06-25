@@ -57,7 +57,8 @@ module.exports = {
         "crown-clothing": "url(/static/projects/crown-clothing.png)"
       },
       gridTemplateColumns: {
-        "minmax": "repeat(auto-fit, minmax(390px, 1fr))"
+        "minmax390": "repeat(auto-fit, minmax(390px, 1fr))",
+        "minmax280": "repeat(auto-fit, minmax(280px, 1fr))"
       }
     }
   },

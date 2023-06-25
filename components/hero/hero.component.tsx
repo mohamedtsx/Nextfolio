@@ -1,7 +1,7 @@
 import Image from "next/image";
 import FloatingLight from "../../static/floating-light.png";
 import Button from "../button/button.component";
-import RightArrow from "../../static/icons/right-arrow.svg"
+import { svgIcons } from "@/utils/svg-icon";
 import Link from "next/link";
 
 const Hero = () => {
@@ -20,10 +20,10 @@ const Hero = () => {
                             projects
                             <span className="w-3"/>
                             <Image 
-                                src={RightArrow}
+                                src={`../../static/svg/${svgIcons.rightarrow}.svg`}
                                 width={24}
                                 height={24}
-                                alt="right-arrow"
+                                alt="right arrow"
                                 className="rotate-90 scale-75"
                             />
                         </Button>

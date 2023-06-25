@@ -37,7 +37,7 @@ const Header = () => {
                     <strong>mohamed khalid</strong>
                 </a>
                 <nav className="sm:flex gap-4 items-center uppercase hidden">
-                    <Link href="/">home</Link>
+                    <Link href="/" >home</Link>
                     <Link href="/#about">about</Link>
                     <Link href="/#projects">projects</Link>
                     <Link href="/#contact">contact</Link>

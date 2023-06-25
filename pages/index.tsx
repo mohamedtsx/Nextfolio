@@ -1,6 +1,7 @@
 import Hero from "@/components/hero/hero.component"
 import About from "@/components/about/about.component"
 import Projects from "@/components/projects/projects.component"
+import Contact from "@/components/contact/contact.component"
 
 
 export default function Home() {
@@ -9,11 +10,7 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
-      <section id="contact" className="section bg-slate-300">
-        <div className="container">
-          <h1>contact</h1>
-        </div>
-      </section>
+      <Contact />
     </>
   )
 }

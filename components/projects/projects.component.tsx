@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="container max-w-7xl px-4">
                 <Title>projects</Title>
 
-                <div className="grid grid-cols-minmax">
+                <div className="grid grid-cols-minmax390">
                     {projects.map(el => <ProjectCard key={el.id} project={el} />)}
                 </div>
             </div>

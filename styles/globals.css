@@ -81,5 +81,38 @@
     transform: translateY(0);
   }
 
+  /* footer */
+
+  .footer-important-links a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-important-links > *:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+  }
+
+  .footer-important-links a::before {
+    content: "»";
+    font-weight: 900;
+    font-size: 24px;
+    margin-right: 8px;
+    @apply text-gold
+  }
+
+  /* footer block quote */
+  blockquote::after {
+    content: '»';
+  }
+
+  blockquote::after,
+  blockquote::before {
+    @apply text-2xl text-green;
+  }
+
+  blockquote::before {
+    content: "«";
+  }
 }
 
