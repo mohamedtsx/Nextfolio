@@ -8,7 +8,7 @@ const Projects = () => {
     const projects: ProjectType[] = data.projects;
 
     return(
-        <section id="projects" className="section bg-gray-light">
+        <section id="projects" className="section bg-graybg">
             <div className="container max-w-7xl px-4">
                 <Title>projects</Title>
 

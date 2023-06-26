@@ -10,6 +10,11 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
+      <section className="section bg-red">
+        <div className="container">
+
+        </div>
+      </section>
       <Contact />
     </>
   )
