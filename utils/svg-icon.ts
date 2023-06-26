@@ -8,7 +8,8 @@ export enum svgIcons {
     facebook = "facebook",
     gmail = "gmail",
     phone = "phone",
-    address = "address"
+    address = "address",
+    ban = "ban"
 }
 
 // type SVGImagProps = {
