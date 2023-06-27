@@ -2,6 +2,7 @@ import Hero from "@/components/hero/hero.component"
 import About from "@/components/about/about.component"
 import Projects from "@/components/projects/projects.component"
 import Contact from "@/components/contact/contact.component"
+import Blogs from "@/components/blogs/blogs.component"
 
 
 export default function Home() {
@@ -10,11 +11,7 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
-      <section className="section bg-red">
-        <div className="container">
-
-        </div>
-      </section>
+      <Blogs />
       <Contact />
     </>
   )

@@ -31,7 +31,7 @@ const Footer = () => {
                                     const isBlocked = el.name === svgIcons.facebook || el.name === svgIcons.twitter;
 
                                     return(
-                                        <a href={el.link} target="_blank" className="relative transition flex justify-center items-center w-12 h-12 bg-graybg/30 opacity-80 hover:opacity-100">
+                                        <a key={el.name} href={el.link} target="_blank" className="relative transition flex justify-center items-center w-12 h-12 bg-graybg/30 opacity-80 hover:opacity-100">
                                             <Image 
                                                 src={`../../static/svg/${el.name}.svg`} 
                                                 width={el.width}
@@ -68,7 +68,7 @@ const Footer = () => {
                     <div className="flex flex-col justify-between items-center md:items-start">
                         {contactItems.map(el => {
                             return(
-                                <div className="flex items-center h-9 w-full max-w-xs md:max-w-none gap-2">
+                                <div key={el.iconName} className="flex items-center h-9 w-full max-w-xs md:max-w-none gap-2">
                                     <div className="w-6 h-6 flex justify-center items-center opacity-90">
                                         <Image
                                             src={`../../static/svg/${el.iconName}.svg`}
@@ -89,7 +89,7 @@ const Footer = () => {
                     {/* quote section */}
                     <div className="w-full xl:flex justify-center hidden"> 
                         <blockquote className="max-w-xs md:max-w-none text-clip leading-relaxed">
-                            &ensp;A experienced frontend dev optimizing responsive, interactive React/Next experiences leveraging Tailwind CSS and TypeScript.&ensp;
+                            &ensp;An experienced frontend dev optimizing responsive, interactive React/Next experiences leveraging Tailwind CSS and TypeScript.&ensp;
                         </blockquote>
                     </div>
                 </div>

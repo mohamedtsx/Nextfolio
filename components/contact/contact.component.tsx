@@ -26,7 +26,7 @@ const Contact = () => {
                                 <label className="font-semibold">Message: </label>
                                 <textarea placeholder="Enter Your Message" className="bg-graybg px-6 py-4 w-full h-60 resize-none outline-none rounded-md" required/>
                             </div>
-                            <input className="transition duration-300 self-end px-12 py-2 cursor-pointer border border-green rounded-lg hover:bg-green hover:bg-opacity-20 uppercase font-medium whitespace-nowrap" type="submit" name="submit" value="Submit"/>
+                            <input className="transition duration-300 self-end px-12 py-2 cursor-pointer border border-green rounded-lg bg-green bg-opacity-20 hover:bg-opacity-40 text-gray-title uppercase font-medium whitespace-nowrap" type="submit" name="submit" value="Submit"/>
                         </form>
                     </div>
 
