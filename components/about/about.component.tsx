@@ -13,7 +13,7 @@ const About = () => {
         <section id="about" className="section">
             <div className="container h-full max-w-7xl px-4  flex flex-col items-stretch">
                 <Title>about</Title>
-                <div className="flex flex-col gap-4  md:grid lg:grid-cols-2 gap-x-24">
+                <div className="flex flex-col gap-2  md:grid lg:grid-cols-2 gap-x-24">
                     <div>
                         <h3 className="text-3xl font-bold mb-7" >Get to know me!</h3>
                         <div>
@@ -28,11 +28,11 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="relative image-fun">
+                    <div className="relative image-fun bg-red-200">
                         <Image 
                             src={MyPhoto}
                             alt="mohamed-photo"
-                            className="filter brightness-90"
+                            className="filter brightness-90 m-auto"
                         />
                     </div>
                     <div>
@@ -45,7 +45,7 @@ const About = () => {
                             )}
                         </div>
                     </div>
-                    <div>
+                    <div className="hidden sm:flex">
                         <h3 className="text-3xl font-bold my-7" >What you can get from me?</h3>
                     </div>
                 </div>

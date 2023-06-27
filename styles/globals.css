@@ -7,9 +7,12 @@
 @layer base {
   html {
     scroll-behavior: smooth !important;
+    overflow-x: hidden;
   }
   body {
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    
   }
   .section {
     @apply text-lg min-h-screen py-24 text-gray-text

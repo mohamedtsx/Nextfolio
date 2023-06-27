@@ -83,48 +83,6 @@
                 "live": "https://mohamedtsx-crown.netlify.app"
             }
 
-        },
-        {
-            "id": "crown-clothing",
-            "name": "crown clothing",
-            "tools": {
-                "core": ["React", "Firebase"],
-                "all": ["React", "Firebase", "TypeScript","Styled-Components", "Stripe API"]
-            },
-            "description": "Feature-rich e-commerce built in React utilizing Firebase for the backend and Stripe API for secure payments. I strove to create a high-quality codebase and optimized user experience, applying best practices and everything I learned.",
-            "links": {
-                "github": "https://github.com/mohamedtsx/crwn-clothing",
-                "live": "https://mohamedtsx-crown.netlify.app"
-            }
-
-        },
-        {
-            "id": "crown-clothing",
-            "name": "crown clothing",
-            "tools": {
-                "core": ["React", "Firebase"],
-                "all": ["React", "Firebase", "TypeScript","Styled-Components", "Stripe API"]
-            },
-            "description": "Feature-rich e-commerce built in React utilizing Firebase for the backend and Stripe API for secure payments. I strove to create a high-quality codebase and optimized user experience, applying best practices and everything I learned.",
-            "links": {
-                "github": "https://github.com/mohamedtsx/crwn-clothing",
-                "live": "https://mohamedtsx-crown.netlify.app"
-            }
-
-        },
-        {
-            "id": "crown-clothing",
-            "name": "crown clothing",
-            "tools": {
-                "core": ["React", "Firebase"],
-                "all": ["React", "Firebase", "TypeScript","Styled-Components", "Stripe API"]
-            },
-            "description": "Feature-rich e-commerce built in React utilizing Firebase for the backend and Stripe API for secure payments. I strove to create a high-quality codebase and optimized user experience, applying best practices and everything I learned.",
-            "links": {
-                "github": "https://github.com/mohamedtsx/crwn-clothing",
-                "live": "https://mohamedtsx-crown.netlify.app"
-            }
-
         }
     ],
     "skills": [

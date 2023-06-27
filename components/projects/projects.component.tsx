@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="container max-w-7xl px-4">
                 <Title>projects</Title>
 
-                <div className="grid grid-cols-minmax390">
+                <div className="flex flex-col gap-2 px-1 sm:grid sm:grid-cols-minmax390 lg:gap-0">
                     {projects.map(el => <ProjectCard key={el.id} project={el} />)}
                 </div>
             </div>
