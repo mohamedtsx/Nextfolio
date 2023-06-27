@@ -106,15 +106,17 @@
   /* footer block quote */
   blockquote::after {
     content: '»';
+    line-height: 0 !important;
   }
-
+  
   blockquote::after,
   blockquote::before {
     @apply text-2xl text-green;
   }
-
+  
   blockquote::before {
     content: "«";
+    line-height: 0 !important;
   }
 }
 
