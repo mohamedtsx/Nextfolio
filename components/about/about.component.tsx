@@ -45,8 +45,15 @@ const About = () => {
                             )}
                         </div>
                     </div>
-                    <div className="hidden sm:flex">
+                    <div className="hidden sm:block ">
                         <h3 className="text-3xl font-bold my-7" >What you can get from me?</h3>
+                        <ul className=" list-inside list-disc">
+                            <li>new website or website customization</li>
+                            <li>single page application with pwa capabilities</li>
+                            <li>full functional ecommerce website with nice dashboard page.</li>
+                            <li>cross platform app built in react-native</li>
+                            <li>free case analysis and tech discussion</li>
+                        </ul>
                     </div>
                 </div>
             </div>
