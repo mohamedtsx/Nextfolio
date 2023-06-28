@@ -2,6 +2,7 @@
     "projects": [
         {
             "id": "crown-clothing",
+            "key": "1",
             "name": "crown clothing",
             "tools": {
                 "core": ["React", "Firebase"],
@@ -16,6 +17,7 @@
         },
         {
             "id": "crown-clothing",
+            "key": "2",
             "name": "crown clothing",
             "tools": {
                 "core": ["React", "Firebase"],
@@ -30,6 +32,7 @@
         },
         {
             "id": "crown-clothing",
+            "key": "3",
             "name": "crown clothing",
             "tools": {
                 "core": ["React", "Firebase"],
@@ -44,6 +47,7 @@
         },
         {
             "id": "crown-clothing",
+            "key": "4",
             "name": "crown clothing",
             "tools": {
                 "core": ["React", "Firebase"],
@@ -58,6 +62,7 @@
         },
         {
             "id": "crown-clothing",
+            "key": "5",
             "name": "crown clothing",
             "tools": {
                 "core": ["React", "Firebase"],
@@ -72,6 +77,7 @@
         },
         {
             "id": "crown-clothing",
+            "key": "6",
             "name": "crown clothing",
             "tools": {
                 "core": ["React", "Firebase"],

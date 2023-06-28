@@ -28,7 +28,7 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="relative image-fun">
+                    <div className="relative">
                         <Image 
                             src={MyPhoto}
                             alt="mohamed-photo"
@@ -39,7 +39,7 @@ const About = () => {
                         <h3 className="text-3xl font-bold my-7" >My Skills</h3>
                         <div className="flex flex-wrap gap-2">
                             {skills.map(el =>
-                                <div className=" bg-graybg font-medium py-2 px-5 rounded-md">
+                                <div key={el} className=" bg-graybg font-medium py-2 px-5 rounded-md">
                                     {el}
                                 </div>
                             )}

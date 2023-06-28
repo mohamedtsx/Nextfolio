@@ -6,16 +6,17 @@ import Button from "../button/button.component"
 
 
 export type ProjectType = {
-    "id": string,
-    "name": string,
+    "id": string;
+    "key": string;
+    "name": string;
     "tools": {
         "core": string[],
         "all": string[]
-    },
-    "description": string,
+    };
+    "description": string;
     "links": {
-        "github": string,
-        "live": string
+        "github": string;
+        "live": string;
     }
 }
 

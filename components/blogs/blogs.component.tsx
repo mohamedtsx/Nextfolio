@@ -8,7 +8,7 @@ const Blogs = () => {
         <section className=" py-24 bg-white">
             <div className="container max-w-7xl px-4">
                 <Title>Blog</Title>
-                <div className="flex justify-between gap-6 items-center overflow-x-scroll">
+                <div className="flex justify-between gap-6 items-center overflow-x-auto">
                     {
                         allBlogs.map(el => {
                             return <BlogCard key={el.staticImageName} blog={el}/>
