@@ -99,5 +99,39 @@
         "QA Testing Basics",
         "PWA",
         "SEO"
+    ],
+    "blogs": [
+        {
+            "staticImageName": "blog-1",
+            "title": "My very first blog", 
+            "topic": "performance", 
+            "date": "10 March, 2023", 
+            "link": "https://next-blog-mohamedtsx.vercel.app",
+            "description": "Capturing the magic Sharing the stories behind the scenes Inspiring the next generation of performers"
+        },
+        {
+            "staticImageName": "blog-2",
+            "title": "My very first blog", 
+            "topic": "performance", 
+            "date": "10 March, 2023", 
+            "link": "https://next-blog-mohamedtsx.vercel.app",
+            "description": "Capturing the magic Sharing the stories behind the scenes Inspiring the next generation of performers"
+        },
+        {
+            "staticImageName": "blog-3",
+            "title": "My very first blog", 
+            "topic": "performance", 
+            "date": "10 March, 2023", 
+            "link": "https://next-blog-mohamedtsx.vercel.app",
+            "description": "Capturing the magic Sharing the stories behind the scenes Inspiring the next generation of performers"
+        },
+        {
+            "staticImageName": "blog-4",
+            "title": "My very first blog", 
+            "topic": "performance", 
+            "date": "10 March, 2023", 
+            "link": "https://next-blog-mohamedtsx.vercel.app",
+            "description": "Capturing the magic Sharing the stories behind the scenes Inspiring the next generation of performers"
+        }
     ]
 }

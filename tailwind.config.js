@@ -54,7 +54,11 @@ module.exports = {
         }
       },
       backgroundImage: {
-        "crown-clothing": "url(/static/projects/crown-clothing.png)"
+        "crown-clothing": "url('/static/projects/crown-clothing.png')",
+        "blog-1": "url('/static/blogs/blog-1.png')",
+        "blog-2": "url('/static/blogs/blog-1.png')",
+        "blog-3": "url('/static/blogs/blog-1.png')",
+        "blog-4": "url('/static/blogs/blog-1.png')"
       },
       gridTemplateColumns: {
         "minmax390": "repeat(auto-fit, minmax(390px, 1fr))",

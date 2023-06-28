@@ -1,7 +1,7 @@
 import Image from "next/image";
 import FloatingLight from "../../static/floating-light.png";
 import Button from "../button/button.component";
-import { svgIcons } from "@/utils/svg-icon";
+import { staticImageName } from "@/utils/svg-icon";
 import Link from "next/link";
 
 const Hero = () => {
@@ -20,7 +20,7 @@ const Hero = () => {
                             projects
                             <span className="w-3"/>
                             <Image 
-                                src={`../../static/svg/${svgIcons.rightarrow}.svg`}
+                                src={`../../static/svg/${staticImageName.rightarrow}.svg`}
                                 width={24}
                                 height={24}
                                 alt="right arrow"

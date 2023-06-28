@@ -1,19 +1,19 @@
 import Image from "next/image";
-import { svgIcons } from "@/utils/svg-icon";
+import { staticImageName } from "@/utils/svg-icon";
 
 
 const socialItems = [
-    { name: svgIcons.linkedin, width: 21, link: "https://linkedin.com/in/mohamedtsx"  },
-    { name: svgIcons.github, width: 18, link: "https://github.com/mohamedtsx" },
-    { name: svgIcons.codepen, width: 24, link: "https://codepen.com/mohamedtsx" },
-    { name: svgIcons.twitter, width: 24, link: "https://twitter.com/mohamedtsx" },
-    { name: svgIcons.facebook, width: 15, link: "https://www.facebook.com/profile.php?id=100053985153783" },
+    { name: staticImageName.linkedin, width: 21, link: "https://linkedin.com/in/mohamedtsx"  },
+    { name: staticImageName.github, width: 18, link: "https://github.com/mohamedtsx" },
+    { name: staticImageName.codepen, width: 24, link: "https://codepen.com/mohamedtsx" },
+    { name: staticImageName.twitter, width: 24, link: "https://twitter.com/mohamedtsx" },
+    { name: staticImageName.facebook, width: 15, link: "https://www.facebook.com/profile.php?id=100053985153783" },
 ]
 
 const contactItems = [
-    { iconName: svgIcons.phone, iconWidth: 20, linkTo:"https://wa.me/+201102687520" ,content: "+201102687520" },
-    { iconName: svgIcons.gmail, iconWidth: 18, linkTo:"mailto:mohamed.tsx@gmail.com" ,content: "mohamed.tsx@gmail.com" },
-    { iconName: svgIcons.address, iconWidth: 22, linkTo:"https://goo.gl/maps/Nawqk8rZ3FXoF38d8", content: "Egypt - Sohag Governorate" },
+    { iconName: staticImageName.phone, iconWidth: 20, linkTo:"https://wa.me/+201102687520" ,content: "+201102687520" },
+    { iconName: staticImageName.gmail, iconWidth: 18, linkTo:"mailto:mohamed.tsx@gmail.com" ,content: "mohamed.tsx@gmail.com" },
+    { iconName: staticImageName.address, iconWidth: 22, linkTo:"https://goo.gl/maps/Nawqk8rZ3FXoF38d8", content: "Egypt - Sohag Governorate" },
 ]
 
 const Footer = () => {
@@ -28,7 +28,7 @@ const Footer = () => {
                         <h4 className="text-3xl font-medium mb-4 lg:mb-2">Social</h4>
                         <div className="transition-all w-full max-w-xs flex justify-between">
                             {socialItems.map(el => {
-                                    const isBlocked = el.name === svgIcons.facebook || el.name === svgIcons.twitter;
+                                    const isBlocked = el.name === staticImageName.facebook || el.name === staticImageName.twitter;
 
                                     return(
                                         <a key={el.name} href={el.link} target="_blank" className="relative transition flex justify-center items-center w-12 h-12 bg-graybg/30 opacity-80 hover:opacity-100">
@@ -39,7 +39,7 @@ const Footer = () => {
                                                 alt={`${el.name} icon`}
                                             />
                                             <Image 
-                                                src={`../../static/svg/${svgIcons.ban}.svg`} 
+                                                src={`../../static/svg/${staticImageName.ban}.svg`} 
                                                 width={el.width}
                                                 height={24}
                                                 alt={`${el.name} icon`}
@@ -77,7 +77,7 @@ const Footer = () => {
                                             alt={el.iconName}
                                         />
                                     </div>
-                                    <a href={el.linkTo} target="_blank" className={` ${el.iconName === svgIcons.phone?'font-sans font-light':''} transition opacity-90 hover:opacity-100`}>
+                                    <a href={el.linkTo} target="_blank" className={` ${el.iconName === staticImageName.phone?'font-sans font-light':''} transition opacity-90 hover:opacity-100`}>
                                         {el.content}
                                     </a>
                                 </div>

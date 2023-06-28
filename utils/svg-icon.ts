@@ -1,4 +1,4 @@
-export enum svgIcons {
+export enum staticImageName {
     github = "github",
     linkedin = "linkedin",
     codepen = "codepen",
@@ -13,7 +13,7 @@ export enum svgIcons {
 }
 
 // type SVGImagProps = {
-//     iconName: svgIcons;
+//     iconName: staticImagName;
 //     width: number;
 //     height?: number;
 //     className?: string
