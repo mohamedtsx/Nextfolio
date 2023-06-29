@@ -108,36 +108,36 @@
     ],
     "blogs": [
         {
-            "staticImageName": "blog-1",
-            "title": "My very first blog", 
-            "topic": "performance", 
-            "date": "10 March, 2023", 
+            "title": "Why to learn JavaScrip?", 
+            "staticBackground": "bg-why-to-learn-js",
+            "topic": "javascript", 
+            "date": "Apr 03, 2023", 
             "link": "https://next-blog-mohamedtsx.vercel.app",
-            "description": "Capturing the magic Sharing the stories behind the scenes Inspiring the next generation of performers"
+            "description": "JavaScript runs everywhere! With JavaScript, you can build many things in a short span of time."
         },
         {
-            "staticImageName": "blog-2",
-            "title": "My very first blog", 
+            "title": "High performance website", 
+            "staticBackground": "bg-high-performance-website",
             "topic": "performance", 
-            "date": "10 March, 2023", 
+            "date": "Sep 07, 2022", 
             "link": "https://next-blog-mohamedtsx.vercel.app",
-            "description": "Capturing the magic Sharing the stories behind the scenes Inspiring the next generation of performers"
+            "description": "Optimize website performance. Build faster loading pages and improve user experience."
         },
         {
-            "staticImageName": "blog-3",
-            "title": "My very first blog", 
-            "topic": "performance", 
-            "date": "10 March, 2023", 
+            "title": "How git works", 
+            "staticBackground": "bg-how-git-works",
+            "topic": "git & github", 
+            "date": "Nov 23, 2021", 
             "link": "https://next-blog-mohamedtsx.vercel.app",
-            "description": "Capturing the magic Sharing the stories behind the scenes Inspiring the next generation of performers"
+            "description": "If you want to master git, don’t worry about learning commands. Instead, learn the model."
         },
         {
-            "staticImageName": "blog-4",
-            "title": "My very first blog", 
-            "topic": "performance", 
-            "date": "10 March, 2023", 
+            "title": "CS student toolkit", 
+            "staticBackground": "bg-cs-student-toolkit",
+            "topic": "general", 
+            "date": "Jan 03, 2023", 
             "link": "https://next-blog-mohamedtsx.vercel.app",
-            "description": "Capturing the magic Sharing the stories behind the scenes Inspiring the next generation of performers"
+            "description": "Optimize your study habits day by day. Learn software, tools and skills to succeed in computer science."
         }
     ]
 }

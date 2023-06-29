@@ -54,11 +54,11 @@ module.exports = {
         }
       },
       backgroundImage: {
-        "crown-clothing": "url('/static/projects/crown-clothing.png')",
-        "blog-1": "url('/static/blogs/blog-1.png')",
-        "blog-2": "url('/static/blogs/blog-1.png')",
-        "blog-3": "url('/static/blogs/blog-1.png')",
-        "blog-4": "url('/static/blogs/blog-1.png')"
+        'crown-clothing': "url('/static/projects/crown-clothing.png')",
+        'why-to-learn-js': "url('/static/blogs/why-to-learn-js.png')",
+        'how-git-works': "url('/static/blogs/how-git-works.png')",
+        'high-performance-website': "url('/static/blogs/high-performance-website.png')",
+        'cs-student-toolkit': "url('/static/blogs/cs-toolkit.png')"
       },
       gridTemplateColumns: {
         "minmax390": "repeat(auto-fit, minmax(390px, 1fr))",

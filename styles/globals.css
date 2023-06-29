@@ -15,7 +15,10 @@
     
   }
   .section {
-    @apply text-lg min-h-screen py-24 text-gray-text
+    /* svh will override vh if supported */
+    min-height: 100vh;
+    min-height: 100svh;
+    @apply text-lg py-24 text-gray-text
   }
 
 
