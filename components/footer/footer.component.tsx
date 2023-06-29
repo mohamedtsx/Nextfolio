@@ -60,7 +60,7 @@ const Footer = () => {
                             <a href="https://medium.com/@mohamedtsx" className="" target="_blank">Check out my blogs on medium</a>
                         </div>
                         <div className="w-full max-w-xs md:max-w-none">
-                            <a href="https://www.upwork.com/freelancers/~0170e8cbfb7d386ec6" className="" target="_blank">Start working on Upwork together</a>
+                            <a href="https://www.upwork.com/workwith/mohamedk74" className="" target="_blank">Start working on Upwork together</a>
                         </div>
                     </div>
 

@@ -5,6 +5,12 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  safelist: [
+    'bg-why-to-learn-js',
+    'bg-how-git-works',
+    'bg-cs-student-toolkit',
+    'bg-high-performance-website'
+  ],
   theme: {
     container: {
       center: true

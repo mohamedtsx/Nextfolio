@@ -31,7 +31,7 @@ const Drop = () => {
                     <span className="absolute top-8 w-8 h-[3px] bg-gold"/>
                 </div>
             </div>
-            <div onClick={() => setOpen(false)} className={`transition-all delay-150 ${open?'animate-darkbg': 'hidden'} fixed top-0 left-0 bg-black/30 h-[100svh] w-full z-10`} />
+            <div onClick={() => setOpen(false)} className={`transition-all delay-150 ${open?'animate-darkbg': 'hidden'} fixed top-0 left-0 bg-black/30 h-screen w-full z-10`} />
             <menu className={`sm:hidden fixed flex justify-center items-center transition ${open? 'translate-x-0': 'translate-x-full'} top-0 right-0 bg-darkblue-0 w-min-75vw-400 h-screen flex flex-col justify-center items-center uppercase gap-4 z-20`}>
                 <Link onClick={closeMenu} href="#about">about</Link>
                 <Link onClick={closeMenu} href="#projects">projects</Link>
