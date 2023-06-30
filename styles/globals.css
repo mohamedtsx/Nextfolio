@@ -135,7 +135,7 @@
     height: 100%;
   }
 
-  .blog-card:hover .blog-image {
+  .blog-card:hover .blog-card-hover {
     @apply brightness-75
   }
 }

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import FloatingLight from "../../static/floating-light.png";
+import FloatingLight from "../../static/floating-light.webp";
 import Button from "../button/button.component";
 import { staticImageName } from "@/utils/svg-icon";
 import Link from "next/link";

@@ -27,7 +27,7 @@ const BlogCard = ({ blog }: BlogCardProps) => {
     return(
         <a href={link} target="_blank" className="relative blog-card border flex flex-col h-96 w-80 min-w-[280px]">
             <div className="relative transition duration-500 h-full flex justify-start overflow-hidden">
-                <div className={`transition duration-500 h-[17rem] w-full  blog-image ${staticBackground} bg-top bg-cover object-top`}/>
+                <div className={`blog-card-hover transition duration-500 h-[17rem] w-full ${staticBackground} bg-top bg-cover object-top`}/>
                 <span className="absolute left-0 bottom-0 uppercase py-2 px-3 bg-darkblue-0 text-sm font-medium text-white">{topic}</span>
             </div>
             <div className=" increase-height transition-[height] duration-500  h-36 pb-12 px-4 py-6 bg-white w-full overflow-hidden">

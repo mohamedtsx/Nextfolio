@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MyPhoto from "../../static/me-fix.png"
+import MyPhoto from "../../static/my-photo.webp"
 import Title from "../title/title.component";
 import data from "../../data/data.json";
 

@@ -133,7 +133,7 @@
         },
         {
             "title": "CS student toolkit", 
-            "staticBackground": "bg-cs-student-toolkit",
+            "staticBackground": "bg-cs-toolkit",
             "topic": "general", 
             "date": "Jan 03, 2023", 
             "link": "https://next-blog-mohamedtsx.vercel.app",

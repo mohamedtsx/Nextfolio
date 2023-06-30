@@ -8,7 +8,7 @@ module.exports = {
   safelist: [
     'bg-why-to-learn-js',
     'bg-how-git-works',
-    'bg-cs-student-toolkit',
+    'bg-cs-toolkit',
     'bg-high-performance-website'
   ],
   theme: {
@@ -60,11 +60,11 @@ module.exports = {
         }
       },
       backgroundImage: {
-        'crown-clothing': "url('/static/projects/crown-clothing.png')",
-        'why-to-learn-js': "url('/static/blogs/why-to-learn-js.png')",
-        'how-git-works': "url('/static/blogs/how-git-works.png')",
-        'high-performance-website': "url('/static/blogs/high-performance-website.png')",
-        'cs-student-toolkit': "url('/static/blogs/cs-toolkit.png')"
+        'crown-clothing': "url('/static/projects/crown-clothing.webp')",
+        'why-to-learn-js': "url('/static/blogs/why-to-learn-js.webp')",
+        'how-git-works': "url('/static/blogs/how-git-works.webp')",
+        'high-performance-website': "url('/static/blogs/high-performance-website.webp')",
+        'cs-toolkit': "url('/static/blogs/cs-toolkit.webp')"
       },
       gridTemplateColumns: {
         "minmax390": "repeat(auto-fit, minmax(390px, 1fr))",

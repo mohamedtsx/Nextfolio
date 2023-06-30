@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/static/my-logo-transparentbg.png"
+import Logo from "@/static/my-logo-transparentbg.webp"
 import { useState } from "react";
 import Drop from "../drop/drop.component";
 import Button from "../button/button.component";
