@@ -41,11 +41,11 @@ const Header = () => {
                     <Link href="/#projects" replace={true} scroll={false}>projects</Link>
                     <Link href="/#blog" replace={true} scroll={false}>blog</Link>
                     <Link href="/#contact" replace={true} scroll={false}>contact</Link>
-                    <Link href="#" className="hover:text-white focus:text-white">
+                    <a href="../../static/resume/frontend-resume_mohamed-khalid.pdf" download className="hover:text-white focus:text-white">
                         <Button className="scale-90">
                             resume
                         </Button>
-                    </Link>
+                    </a>
                 </nav>
                 <Drop />
             </div>

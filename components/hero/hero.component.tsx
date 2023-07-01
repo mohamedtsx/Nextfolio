@@ -33,6 +33,7 @@ const Hero = () => {
                     src={FloatingLight}
                     width={240}
                     height={240}
+                    priority
                     alt="light"
                     className="hidden sm:inline-block absolute bottom-12 right-12 animate-light select-none"
                     draggable="false"
