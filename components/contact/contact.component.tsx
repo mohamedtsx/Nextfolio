@@ -13,10 +13,7 @@ const Contact = () => {
 
     const submitHandler: FormEventHandler<HTMLFormElement> = async (e) => {
         e.preventDefault();
-        
-        
         setAction(formActions.start());
-
 
         setIsValidData(true);
         const formData: {[key: string]: string} = {}
@@ -28,10 +25,8 @@ const Contact = () => {
             }
             formData[el.name] = el.value;
         });
-        
 
-        if(isValidData) {
-
+        if(!isValidData) return;
 
         try {
             const response = await fetch('/api/mail', {
@@ -44,7 +39,7 @@ const Contact = () => {
                 setAction(formActions.success());
                 setTimeout(() => {
                     setAction(undefined);
-                }, 2000);
+                }, 3000);
                 (e.target as HTMLFormElement).reset();
 
             } else {
@@ -60,10 +55,6 @@ const Contact = () => {
             }
         }
 
-
-    }
-
-
     };
 
     return(
@@ -78,7 +69,7 @@ const Contact = () => {
                     <div className="border bg-white p-4 xl:p-10 my-12 rounded-md drop-shadow-sm">
                         <form action="" method="POST" className="flex flex-col gap-6" onSubmit={submitHandler}>
                             <label className="font-semibold w-full flex flex-col gap-2">Name: 
-                                <input type="text" name="name" placeholder="Enter Your Name" className="outline-none border-none rounded-md bg-graybg px-4 md:px-6 py-4" />
+                                <input type="text" name="name" placeholder="Enter Your Name" className="outline-none border-none rounded-md bg-graybg px-4 md:px-6 py-4" required/>
                             </label>
                             <label className="font-semibold w-full flex flex-col gap-2">Email: 
                                 <input type="email" name="email" placeholder="Enter Your Email" className="outline-none border-none rounded-md bg-graybg px-4 md:px-6 py-4" required/>

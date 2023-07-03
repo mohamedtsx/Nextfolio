@@ -37,13 +37,19 @@ module.exports = {
           "0%": {transform: "translateY(0)"},
           "50%": {transform: "translateY(20%)"},
           "100%": {transform: "translateY(0)"}
+        },
+        opacity: {
+          "0%": {opacity: "0"},
+          "50%": {opacity: "0"},
+          "100%": {opacity: "1"}
         }
       },
       animation: {
         drop: "drop 300ms forwards",
         menu:  "menu 300ms forwards",
         darkbg: "darkbg 250ms forwards",
-        light: 'light 5s ease-in-out infinite'
+        light: 'light 5s ease-in-out infinite',
+        opacity: 'opacity 2s ease-in-out forwards',
       },
       colors: {
         darkblue: {
