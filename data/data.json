@@ -31,7 +31,7 @@
 
         },
         {
-            "id": "crown-clothing",
+            "id": "crown-clothing2",
             "key": "3",
             "name": "crown clothing",
             "tools": {
@@ -46,7 +46,7 @@
 
         },
         {
-            "id": "crown-clothing",
+            "id": "crown-clothing3",
             "key": "4",
             "name": "crown clothing",
             "tools": {
@@ -61,7 +61,7 @@
 
         },
         {
-            "id": "crown-clothing",
+            "id": "crown-clothing4",
             "key": "5",
             "name": "crown clothing",
             "tools": {
@@ -76,7 +76,7 @@
 
         },
         {
-            "id": "crown-clothing",
+            "id": "crown-clothing5",
             "key": "6",
             "name": "crown clothing",
             "tools": {
@@ -112,7 +112,7 @@
             "staticBackground": "bg-why-to-learn-js",
             "topic": "javascript", 
             "date": "Apr 03, 2023", 
-            "link": "https://next-blog-mohamedtsx.vercel.app",
+            "link": "https://medium.com/@mohamedtsx/why-to-learn-javascript-6d7426937f55",
             "description": "JavaScript runs everywhere! With JavaScript, you can build many things in a short span of time."
         },
         {

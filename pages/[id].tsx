@@ -16,7 +16,6 @@ type Params = {
 
 export default function Project({ project }: ProjectProps) {
 
-    const staticImageName = 'bg-crown-clothing';
 
     const { 
         name,
@@ -58,7 +57,7 @@ export default function Project({ project }: ProjectProps) {
                                     <a href={links.github} target="_blank" aria-label="github link">{links.github}</a>
                                 </li>
                                 <li>
-                                    <a href={links.live} target="_blank" aria-label="live demo">{links.live}</a>
+                                    <a href={links.live} aria-label="live demo">{links.live}</a>
                                 </li>
                             </ul>
                         </div>
@@ -74,7 +73,7 @@ export async function getStaticPaths() {
     const paths = projects.map(el => {
         return {params: {id: el.id}};
     });
-    return { paths, fallback: true }
+    return { paths, fallback: false }
 }
 
 export async function getStaticProps({ params }: Params) {

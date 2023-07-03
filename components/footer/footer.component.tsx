@@ -12,7 +12,7 @@ const socialItems = [
 
 const contactItems = [
     { iconName: staticImageName.phone, iconWidth: 20, linkTo:"https://wa.me/+201102687520" ,content: "+201102687520" },
-    { iconName: staticImageName.gmail, iconWidth: 18, linkTo:"mailto:mohamed.tsx@gmail.com" ,content: "mohamed.tsx@gmail.com" },
+    { iconName: staticImageName.gmail, iconWidth: 18, linkTo:"mailto:mohamed@khalidjs.com" ,content: "mohamed@khalidjs.com" },
     { iconName: staticImageName.address, iconWidth: 22, linkTo:"https://goo.gl/maps/Nawqk8rZ3FXoF38d8", content: "Egypt - Sohag Governorate" },
 ]
 
