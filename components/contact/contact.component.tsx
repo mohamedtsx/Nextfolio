@@ -7,7 +7,8 @@ import { FormLoaderAction } from "../form-loader/form-loader.component";
 import * as formActions from '../../utils/form-actions'
 
 const Contact = () => {
-    const [action, setAction] = useState<FormLoaderAction>()
+    const [action, setAction] = useState<FormLoaderAction>();
+    const [isValidData, setIsValidData] = useState(false)
 
 
     const submitHandler: FormEventHandler<HTMLFormElement> = async (e) => {
@@ -16,14 +17,21 @@ const Contact = () => {
         
         setAction(formActions.start());
 
+
+        setIsValidData(true);
         const formData: {[key: string]: string} = {}
         Array.from(e.currentTarget.elements).forEach((el: any) => {
             if(!el.name) return;
+            if(el.value.length < 3) {
+                setAction(formActions.failed(`< Pleas, enter your ${el.name} />`));
+                setIsValidData(false)
+            }
             formData[el.name] = el.value;
         });
         
 
-        // do some validation here
+        if(isValidData) {
+
 
         try {
             const response = await fetch('/api/mail', {
@@ -53,6 +61,7 @@ const Contact = () => {
         }
 
 
+    }
 
 
     };
@@ -69,7 +78,7 @@ const Contact = () => {
                     <div className="border bg-white p-4 xl:p-10 my-12 rounded-md drop-shadow-sm">
                         <form action="" method="POST" className="flex flex-col gap-6" onSubmit={submitHandler}>
                             <label className="font-semibold w-full flex flex-col gap-2">Name: 
-                                <input type="text" name="name" placeholder="Enter Your Name" className="outline-none border-none rounded-md bg-graybg px-4 md:px-6 py-4" required/>
+                                <input type="text" name="name" placeholder="Enter Your Name" className="outline-none border-none rounded-md bg-graybg px-4 md:px-6 py-4" />
                             </label>
                             <label className="font-semibold w-full flex flex-col gap-2">Email: 
                                 <input type="email" name="email" placeholder="Enter Your Email" className="outline-none border-none rounded-md bg-graybg px-4 md:px-6 py-4" required/>
