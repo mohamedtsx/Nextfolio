@@ -6,8 +6,11 @@ const SuccessCheck = () => {
     const checkmarkRef = useRef(null);
 
     useEffect(() => {
+
         setTimeout(() => {
-            (checkmarkRef as any).current.classList.add("lg:-translate-x-40");
+            if(checkmarkRef.current) {
+                (checkmarkRef as any).current.classList.add("lg:-translate-x-40");
+            }
         }, 1000);
     }, [])
 

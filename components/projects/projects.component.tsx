@@ -5,6 +5,7 @@ import { ProjectType } from "../project-card/project-card.component";
 
 const Projects = () => {
 
+
     const projects: ProjectType[] = data.projects;
 
     return(
@@ -13,7 +14,7 @@ const Projects = () => {
                 <Title>projects</Title>
 
                 <div className="flex flex-col gap-2 px-1 sm:grid sm:grid-cols-minmax390 lg:gap-0">
-                    {projects.map(el => <ProjectCard key={el.key} project={el} />)}
+                    {projects.map(el => <ProjectCard key={el.id} project={el} />)}
                 </div>
             </div>
         </section>

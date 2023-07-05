@@ -14,6 +14,7 @@ type Params = {
 }
 
 
+
 export default function Project({ project }: ProjectProps) {
 
 
@@ -24,21 +25,26 @@ export default function Project({ project }: ProjectProps) {
         description
     } = project;
 
+    const descriptionBlocks = description.split('<p>');
+
+
     return(
         <Layout>
             <section className="section ">
                 <div className="container h-full max-w-7xl px-4 pt-16">
                     <Title>{name}</Title>
-                    <div className="flex flex-col gap-2  md:grid lg:grid-cols-2 gap-x-24 min-h-screen">
-                        <div className="relative">
+                    <div className="flex flex-col gap-2  md:grid lg:grid-cols-2 gap-x-24">
+                        <a href={links.live} target="_blank" aria-label={`${name} project`}>
                             <Image 
-                                src={`/static/projects/crown-clothing.webp`}
-                                fill={true}
+                                src={`/static/projects/nextblog.jpg`}
+                                width={800}
+                                height={552}
                                 alt={`${name} project`}
+                                className="rounded-md mx-auto mb-10 sm:mt-0"
                             />
-                        </div>
+                        </a>
                         <div className="">
-                            <p>{description}</p>
+                            {descriptionBlocks.map(block => <p className="mb-3">{block}</p>)}
                         </div>
                         <div>
                             <h3 className="text-3xl font-bold my-7" >Technologies</h3>
@@ -52,7 +58,7 @@ export default function Project({ project }: ProjectProps) {
                         </div>
                         <div>
                             <h3 className="text-3xl font-bold my-7" >Links</h3>
-                            <ul className=" list-inside list-disc">
+                            <ul className=" list-inside list-disc text-sm md:text-base">
                                 <li>
                                     <a href={links.github} target="_blank" aria-label="github link">{links.github}</a>
                                 </li>

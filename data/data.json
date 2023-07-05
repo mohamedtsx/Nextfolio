@@ -2,93 +2,81 @@
     "projects": [
         {
             "id": "nextfolio",
-            "key": "1",
-            "name": "nextfolio",
+            "name": "Nextfolio",
             "tools": {
                 "core": ["Next.js", "Tailwind CSS"],
-                "all": ["Next.js", "Tailwind CSS", "TypeScript"]
+                "all": ["Next.js", "Tailwind CSS", "TypeScript", "SendGrid API"]
             },
-            "description": "Feature-rich e-commerce built in React utilizing Firebase for the backend and Stripe API for secure payments. I strove to create a high-quality codebase and optimized user experience, applying best practices and everything I learned.",
             "links": {
-                "github": "https://github.com/mohamedtsx/crwn-clothing",
-                "live": "https://mohamedtsx-crown.netlify.app"
-            }
-
+                "github": "https://github.com/mohamedtsx/nextfolio",
+                "live": "https://khalidjs.com"
+            },
+            "description": "I built my portfolio website with Next.js for fast page load times, Tailwind CSS for streamlined styling, and TypeScript for error prevention.<p>Next.js lets my site pre-render pages for quick load times and includes server-side rendering for SEO. Tailwind CSS uses simple utility classes to style components quickly. And TypeScript catches errors early during development.<p>I integrated SendGrid with Formspree to enable my contact form. When someone submits the form, Formspree triggers SendGrid to email me the submitted data.<p>Combining these technologies let me create an efficient platform to showcase my skills as a front-end developer. The end result is a high-performing and functional portfolio site."
         },
         {
             "id": "crown-clothing",
-            "key": "2",
-            "name": "crown clothing",
+            "name": "Crown Clothing",
             "tools": {
                 "core": ["React", "Firebase"],
-                "all": ["React", "Firebase", "TypeScript","Styled-Components", "Stripe API"]
+                "all": ["React","Styled-Components", "Redux Toolkit", "TypeScript", "Firebase", "Stripe API", "Jest"]
             },
-            "description": "Feature-rich e-commerce built in React utilizing Firebase for the backend and Stripe API for secure payments. I strove to create a high-quality codebase and optimized user experience, applying best practices and everything I learned.",
             "links": {
                 "github": "https://github.com/mohamedtsx/crwn-clothing",
                 "live": "https://mohamedtsx-crown.netlify.app"
-            }
-
+            },
+            "description": "Crown Clothing is a modern e-commerce platform built with React,Firebase and Stripe API. TypeScript ensures type safety. Styled Components enable modular styling. Redux manages state. Service workers provide caching.<p>The optimized UX includes features like installability,offline support, responsive design, loading states and error handling. It provides a seamless shopping experience across devices. Secure Stripe checkout and responsive design make it accessible.<p>Crown Clothing showcases building a sophisticated e-commerce platform with modern technologies, creating a high-performing,accessible and feature-rich experience. It leverages tools likeFirebase, Stripe, React and Redux, offering a secure and user-friendly shopping environment. It demonstrates expertise in creating quality, high-performing web applications."
         },
         {
-            "id": "crown-clothing2",
-            "key": "3",
-            "name": "crown clothing",
+            "id": "nextblog",
+            "name": "Nextblog",
             "tools": {
-                "core": ["React", "Firebase"],
-                "all": ["React", "Firebase", "TypeScript","Styled-Components", "Stripe API"]
+                "core": ["Next.js", "Styled-Components"],
+                "all": ["Next.js", "Styled-Components", "TypeScript"]
             },
-            "description": "Feature-rich e-commerce built in React utilizing Firebase for the backend and Stripe API for secure payments. I strove to create a high-quality codebase and optimized user experience, applying best practices and everything I learned.",
             "links": {
-                "github": "https://github.com/mohamedtsx/crwn-clothing",
-                "live": "https://mohamedtsx-crown.netlify.app"
-            }
-
+                "github": "https://github.com/mohamedtsx/next-blog",
+                "live": "https://next-blog-mohamedtsx.vercel.app"
+            },
+            "description": "Nextblog is a blog I built using Next.js's Static Site Generation. Next.js's fast features helped create Nextblog.<p>I styled Nextblog with Styled Components for a clean look. Styled Components allow writing styles in JavaScript, co-locating them with component definitions.<p> Nextblog shows my ability to create high performance blogs. Users see instantly loading pages optimized for search engines. Authors use intuitive Markdown. Nextblog balances speed, functionality and user experience.<p> Nextblog illustrates my skill at designing streamlined yet high performing solutions. Static Site Generation and Markdown create an optimal technology stack for a fast blog. Combining them with Styled Components allows me to experiment with CSS in JavaScript."
         },
         {
-            "id": "crown-clothing3",
-            "key": "4",
-            "name": "crown clothing",
+            "id": "notes-app",
+            "name": "Notes App",
             "tools": {
-                "core": ["React", "Firebase"],
-                "all": ["React", "Firebase", "TypeScript","Styled-Components", "Stripe API"]
+                "core": ["HTML", "CSS", "JavaScript"],
+                "all": ["HTML", "CSS", "JavaScript"]
             },
-            "description": "Feature-rich e-commerce built in React utilizing Firebase for the backend and Stripe API for secure payments. I strove to create a high-quality codebase and optimized user experience, applying best practices and everything I learned.",
             "links": {
-                "github": "https://github.com/mohamedtsx/crwn-clothing",
-                "live": "https://mohamedtsx-crown.netlify.app"
-            }
-
+                "github": "https://github.com/mohamedtsx/notes-app",
+                "live": "https://mohamedtsx-notes.netlify.app"
+            },
+            "description": "My Notes app allows users to create, save, edit and delete simple text notes. When the page loads, any previously saved notes are retrieved from local storage and displayed. The new note is instantly added to the list and saved in local storage, persisting after page refreshes.<p>Users can also click an existing note to view, edit or delete it. When a note is deleted, it is removed from both the list and local storage. This functionality allows users to manage their notes and the associated data in real time.<p>The app helped me manipulate and create DOM elements, save data to and retrieve from local storage, and do basic CSS styling. Though simple, the app demonstrates my proficiency with core JavaScript concepts like functions, events, loops, variables, objects and strings."
         },
         {
-            "id": "crown-clothing4",
-            "key": "5",
-            "name": "crown clothing",
+            "id": "omnifood",
+            "name": "Omnifood",
             "tools": {
-                "core": ["React", "Firebase"],
-                "all": ["React", "Firebase", "TypeScript","Styled-Components", "Stripe API"]
+                "core": ["HTML", "CSS"],
+                "all": ["HTML", "CSS"]
             },
-            "description": "Feature-rich e-commerce built in React utilizing Firebase for the backend and Stripe API for secure payments. I strove to create a high-quality codebase and optimized user experience, applying best practices and everything I learned.",
             "links": {
-                "github": "https://github.com/mohamedtsx/crwn-clothing",
-                "live": "https://mohamedtsx-crown.netlify.app"
-            }
-
+                "github": "https://github.com/mohamedtsx/omnifood",
+                "live": "https://mohamed-khaled-omnifood.netlify.app"
+            },
+            "description": "Omnifood is a modern HTML and CSS landing page template I built to practice and showcase my styling skills.<p>I styled Omnifood with CSS using Grid and Flexbox for responsive layout, media queries to make it fully responsive from mobile to desktop, CSS variables for the color theme and CSS animations and transitions for subtle effects.<p>Building Omnifood helped me improve implementing layout techniques like Grid, Flexbox and media queries for responsive designs as well as utilizing variables, transitions and transforms. While Omnifood is just a template, it demonstrates my understanding of responsive design principles and ability to style a landing page with modern CSS features."
         },
         {
-            "id": "crown-clothing5",
-            "key": "6",
-            "name": "crown clothing",
+            "id": "job-board",
+            "name": "Job Board",
             "tools": {
-                "core": ["React", "Firebase"],
-                "all": ["React", "Firebase", "TypeScript","Styled-Components", "Stripe API"]
+                "core": ["React", "Styled-Components"],
+                "all": ["React", "Styled-Components", "Axios", "Context API"]
             },
-            "description": "Feature-rich e-commerce built in React utilizing Firebase for the backend and Stripe API for secure payments. I strove to create a high-quality codebase and optimized user experience, applying best practices and everything I learned.",
             "links": {
-                "github": "https://github.com/mohamedtsx/crwn-clothing",
-                "live": "https://mohamedtsx-crown.netlify.app"
-            }
-
+                "github": "https://github.com/mohamedtsx/Job-Board",
+                "live": "https://gdsc-job-board.netlify.app"
+            },
+            "description": "I built the frontend for the GDSC Job Board using React connected to their API. I designed a clean UI with large landing images, simple inputs and range fields. I built pages for jobs and applications, fetched data from the API using Axios, posted applications and handled errors.<p> The result is an engaging UX through simple inputs and responsive design, and an easy application process. Building the UI taught me to design React apps, connect to APIs using Axios, and validate forms.<p> The job board shows I can build intuitive interfaces, collaborate with backends, and connect frontend code to APIs. By combining a modern React app with a clean design and API integration, I delivered a functional job board for GDSC."
         }
     ],
     "skills": [
@@ -101,10 +89,11 @@
         "Tailwind CSS",
         "Firebase",
         "Git",
-        "React Native",
+        "GitHub",
         "QA Testing Basics",
         "PWA",
-        "SEO"
+        "SEO",
+        "Notion"
     ],
     "blogs": [
         {

@@ -7,7 +7,6 @@ import Button from "../button/button.component"
 
 export type ProjectType = {
     "id": string;
-    "key": string;
     "name": string;
     "tools": {
         "core": string[],
@@ -36,16 +35,16 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 
 
     return(
-        <div className={` h-72 relative bg-crown-clothing bg-cover bg-center`}>
+        <div className={`lg:h-72 md:h-64 sm:h-96 md:m-0 sm:mx-10 h-56   relative bg-crown-clothing bg-cover bg-center`}>
             <div className="active-project-card relative transition-opacity duration-500 w-full h-full bg-white opacity-0 hover:opacity-100 overflow-hidden">
                 <div className="transition-all  duration-500 flex flex-col justify-center items-center absolute top-0 left-1/2 -translate-x-1/2">
-                    <Link href={`/${id}`}>
+                    <Link scroll={false} href={`/${id}`}>
                         <Button className="mb-2 text-inherit">case study</Button>
                     </Link>
-                    <span>{tools.core.join(" / ")}</span>
+                    <span className="whitespace-nowrap">{tools.core.join(" / ")}</span>
                 </div>
                 <div className="transition duration-500 w-full h-10 absolute bottom-0 left-0 flex justify-between items-center px-2 bg-darkblue-0 text-white translate-y-full">
-                    <label className="text-xl font-medium lowercase">{name}</label>
+                    <label className="text-xl font-medium">{name}</label>
                     <div className="flex justify-center items-center gap-2">
                         <a href={`${links.github}`} className="project-card-icon " aria-label="github link" target="_blank">
                             <IconGitHub/>

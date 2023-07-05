@@ -66,7 +66,12 @@ module.exports = {
         }
       },
       backgroundImage: {
+        'omnifood': "url('/static/projects/omnifood.jpg')",
         'crown-clothing': "url('/static/projects/crown-clothing.webp')",
+        'nextfolio': "url('/static/projects/nextfolio.png')",
+        'nextblog': "url('/static/projects/nextblog.jpg')",
+        'notes': "url('/static/projects/notes.png')",
+        'job-board': "url('/static/projects/job-board.png')",
         'why-to-learn-js': "url('/static/blogs/why-to-learn-js.webp')",
         'how-git-works': "url('/static/blogs/how-git-works.webp')",
         'high-performance-website': "url('/static/blogs/high-performance-website.webp')",

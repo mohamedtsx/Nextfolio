@@ -16,7 +16,9 @@ const Contact = () => {
         setAction(formActions.start());
 
         setIsValidData(true);
-        const formData: {[key: string]: string} = {}
+        const formData: {[key: string]: string} = {};
+
+
         Array.from(e.currentTarget.elements).forEach((el: any) => {
             if(!el.name) return;
             if(el.value.length < 3) {
@@ -26,7 +28,7 @@ const Contact = () => {
             formData[el.name] = el.value;
         });
 
-        if(!isValidData) return;
+        if(isValidData) {
 
         try {
             const response = await fetch('/api/mail', {
@@ -43,9 +45,8 @@ const Contact = () => {
                 (e.target as HTMLFormElement).reset();
 
             } else {
-                setAction(formActions.failed(response.statusText));
+                setAction(formActions.failed(data.error));
             }
-
 
         } catch(error) {
             if(error instanceof Error) {
@@ -55,6 +56,7 @@ const Contact = () => {
             }
         }
 
+        }
     };
 
     return(
