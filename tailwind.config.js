@@ -9,7 +9,13 @@ module.exports = {
     'bg-why-to-learn-js',
     'bg-how-git-works',
     'bg-cs-toolkit',
-    'bg-high-performance-website'
+    'bg-high-performance-website',
+    'bg-omnifood',
+    'bg-crown-clothing',
+    'bg-nextfolio',
+    'bg-nextblog',
+    'bg-notes-app',
+    'bg-job-board'
   ],
   theme: {
     container: {
@@ -66,12 +72,12 @@ module.exports = {
         }
       },
       backgroundImage: {
-        'omnifood': "url('/static/projects/omnifood.jpg')",
+        'omnifood': "url('/static/projects/omnifood.webp')",
         'crown-clothing': "url('/static/projects/crown-clothing.webp')",
-        'nextfolio': "url('/static/projects/nextfolio.png')",
-        'nextblog': "url('/static/projects/nextblog.jpg')",
-        'notes': "url('/static/projects/notes.png')",
-        'job-board': "url('/static/projects/job-board.png')",
+        'nextfolio': "url('/static/projects/nextfolio.webp')",
+        'nextblog': "url('/static/projects/nextblog.webp')",
+        'notes-app': "url('/static/projects/notes-app.webp')",
+        'job-board': "url('/static/projects/job-board.webp')",
         'why-to-learn-js': "url('/static/blogs/why-to-learn-js.webp')",
         'how-git-works': "url('/static/blogs/how-git-works.webp')",
         'high-performance-website': "url('/static/blogs/high-performance-website.webp')",

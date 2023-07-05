@@ -6,12 +6,12 @@ export default (req, res) => {
     const body = JSON.parse(req.body);
     
     const message = `
-        Dear ${body.name}, \r\n
-        Thank you for contacting us. \r\n
+        Dear ${body.name}, \r\n\r\n
+        Thank you for contacting us. \r\n\r\n
         We received your message through our contact form and appreciate you getting in touch. \r\n
         We look forward to discussing how we can be of service to meet your needs. \r\n
         Please feel free to provide any additional details you'd like us to know. We will respond promptly to any follow up questions you have. \r\n\r\n
-        Best regards,\r\n
+        Best regards,\r\n\r\n
         Mohamed Khalid
     `;
 

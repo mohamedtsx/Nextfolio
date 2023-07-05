@@ -19,6 +19,7 @@ export default function Project({ project }: ProjectProps) {
 
 
     const { 
+        id,
         name,
         tools: {all: tools},
         links,
@@ -36,7 +37,7 @@ export default function Project({ project }: ProjectProps) {
                     <div className="flex flex-col gap-2  md:grid lg:grid-cols-2 gap-x-24">
                         <a href={links.live} target="_blank" aria-label={`${name} project`}>
                             <Image 
-                                src={`/static/projects/nextblog.jpg`}
+                                src={`/static/projects/${id}.webp`}
                                 width={800}
                                 height={552}
                                 alt={`${name} project`}
@@ -44,7 +45,7 @@ export default function Project({ project }: ProjectProps) {
                             />
                         </a>
                         <div className="">
-                            {descriptionBlocks.map(block => <p className="mb-3">{block}</p>)}
+                            {descriptionBlocks.map((block, index) => <p key={index} className="mb-3">{block}</p>)}
                         </div>
                         <div>
                             <h3 className="text-3xl font-bold my-7" >Technologies</h3>
