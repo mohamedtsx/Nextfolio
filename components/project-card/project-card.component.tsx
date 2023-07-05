@@ -17,7 +17,6 @@ export type ProjectType = {
         "live": string;
     }
     "description": string;
-    "staticBackground": string;
 }
 
 type ProjectCardProps = {
