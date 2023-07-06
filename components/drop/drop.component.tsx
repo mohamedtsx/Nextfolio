@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-
+import Button from "../button/button.component";
 
 const Drop = () => {
 
@@ -33,11 +33,15 @@ const Drop = () => {
             </div>
             <div onClick={() => setOpen(false)} className={`transition-all delay-150 ${open?'animate-darkbg': 'hidden'} fixed top-0 left-0 bg-black/30 h-screen w-full z-10`} />
             <menu className={`sm:hidden fixed flex justify-center items-center transition ${open? 'translate-x-0': 'translate-x-full'} top-0 right-0 bg-darkblue-0 w-min-75vw-400 h-screen flex flex-col justify-center items-center uppercase gap-4 z-20`}>
-                <Link onClick={closeMenu} href="#about">about</Link>
-                <Link onClick={closeMenu} href="#projects">projects</Link>
+                <Link onClick={closeMenu} href="/#about">about</Link>
+                <Link onClick={closeMenu} href="/#projects">projects</Link>
                 <Link onClick={closeMenu} href="/#blog">blog</Link>
-                <Link onClick={closeMenu} href="#contact">contact</Link>
-                <Link onClick={closeMenu} href="#" className="transition px-4 py-2 border border-green rounded-lg text-sm hover:bg-green hover:text-white focus:text-white hover:bg-opacity-20">resume</Link>
+                <Link onClick={closeMenu} href="/#contact">contact</Link>
+                <a href="../../static/resume/frontend-resume_mohamed-khalid.pdf" download className="hover:text-white focus:text-white">
+                        <Button className="scale-90">
+                            resume
+                        </Button>
+                </a>
             </menu>
         </>
     )
