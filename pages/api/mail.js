@@ -41,8 +41,8 @@ export default (req, res) => {
 
     
     try {
-        // mail.send(data);
-        // mail.send(newRequest);
+        mail.send(data);
+        mail.send(newRequest);
         res.status(200).json({ status: 'Ok' });
     } catch(error) {
         if (error.toString().includes('401')) {
