@@ -25,6 +25,9 @@ module.exports = {
       width: {
         "min-75vw-400": "min(75vw, 400px)" 
       },
+      fontSize: {
+        "min16": "min(16px, 4vw)"
+      },
       keyframes: {
         drop: {
           "0%": { transform: "translateY(0) rotate(45deg)" },

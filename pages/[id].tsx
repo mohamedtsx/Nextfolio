@@ -61,9 +61,9 @@ export default function Project({ project }: ProjectProps) {
                         </div>
                         <div>
                             <h3 className="text-3xl font-bold my-7" >Links</h3>
-                            <ul className=" list-inside list-disc text-sm md:text-base">
+                            <ul className=" list-inside list-disc  text-min16  md:text-base">
                                 <li>
-                                    <a href={links.github} target="_blank" aria-label="github link">{links.github}</a>
+                                    <a className="" href={links.github} target="_blank" aria-label="github link">{links.github}</a>
                                 </li>
                                 <li>
                                     <a href={links.live} aria-label="live demo">{links.live}</a>

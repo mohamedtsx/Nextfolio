@@ -11,6 +11,7 @@
   body {
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
+    min-width: 300px;
     
   }
   .section {
@@ -165,7 +166,14 @@
       background: #FFFFFF;
       transform: rotate(-45deg);
   }
+
+  /* general */
+  button {
+    user-select: none;
+  }
 }
+
+
 
 
 
