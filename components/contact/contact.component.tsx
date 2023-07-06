@@ -8,27 +8,27 @@ import * as formActions from '../../utils/form-actions'
 
 const Contact = () => {
     const [action, setAction] = useState<FormLoaderAction>();
-    const [isValidData, setIsValidData] = useState(false)
 
 
     const submitHandler: FormEventHandler<HTMLFormElement> = async (e) => {
         e.preventDefault();
         setAction(formActions.start());
 
-        setIsValidData(true);
         const formData: {[key: string]: string} = {};
+        let isValidData = true
 
 
         Array.from(e.currentTarget.elements).forEach((el: any) => {
             if(!el.name) return;
             if(el.value.length < 3) {
                 setAction(formActions.failed(`< Pleas, enter your ${el.name} />`));
-                setIsValidData(false)
+                isValidData = false;
             }
             formData[el.name] = el.value;
         });
 
-        if(isValidData) {
+        if(!isValidData) return;
+
 
         try {
             const response = await fetch('/api/mail', {
@@ -56,7 +56,6 @@ const Contact = () => {
             }
         }
 
-        }
     };
 
     return(
@@ -79,9 +78,9 @@ const Contact = () => {
                             <label className="font-semibold w-full flex flex-col gap-2">Message: 
                                 <textarea name="message" placeholder="Enter Your Message" className="bg-graybg px-4 md:px-6 py-4 w-full h-40 md:h-60 resize-none outline-none rounded-md" required/>
                             </label>
-                            <div className="flex gap-4 justify-end items-end bg-white h-20 relative">
+                            <div className="flex gap-4 justify-end items-end bg-white relative">
                                 <FormLoader action={action}/>
-                                <input type="submit" value="Submit" className="transition duration-300 self-end px-12 py-2 cursor-pointer border border-green rounded-lg bg-green bg-opacity-20 hover:bg-opacity-40 text-gray-title uppercase font-medium whitespace-nowrap focus:bg-opacity-50"/>
+                                <input type="submit" value="Submit" className="transition duration-300 self-end px-12 py-2 cursor-pointer border border-green rounded-lg bg-green bg-opacity-20 hover:bg-opacity-40 text-gray-title uppercase font-medium whitespace-nowrap"/>
                             </div>
                         </form>
                     </div>
