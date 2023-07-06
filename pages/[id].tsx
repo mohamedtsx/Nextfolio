@@ -2,6 +2,8 @@ import Layout from "@/components/layout/layout.component"
 import { ProjectType } from "@/components/project-card/project-card.component";
 import Title from "@/components/title/title.component";
 import Image from "next/image";
+import { useEffect } from "react";
+
 
 type ProjectProps = {
     project: ProjectType
@@ -31,7 +33,7 @@ export default function Project({ project }: ProjectProps) {
 
     return(
         <Layout>
-            <section className="section ">
+            <section className="section">
                 <div className="container h-full max-w-7xl px-4 pt-16">
                     <Title>{name}</Title>
                     <div className="flex flex-col gap-2  md:grid lg:grid-cols-2 gap-x-24">

@@ -38,8 +38,8 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         <div className={`lg:h-72 md:h-64 sm:h-96 md:m-0 sm:mx-10 h-56   relative bg-${id} bg-cover bg-center`}>
             <div className="active-project-card relative transition-opacity duration-500 w-full h-full bg-white opacity-0 hover:opacity-100 overflow-hidden">
                 <div className="transition-all  duration-500 flex flex-col justify-center items-center absolute top-0 left-1/2 -translate-x-1/2">
-                    <Link scroll={false} href={`/${id}`}>
-                        <Button className="mb-2 text-inherit">case study</Button>
+                    <Link scroll={true} href={`/${id}`}>
+                            <Button className="mb-2 text-inherit">case study</Button>
                     </Link>
                     <span className="whitespace-nowrap">{tools.core.join(" / ")}</span>
                 </div>
