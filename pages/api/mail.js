@@ -1,8 +1,8 @@
 const mail = require('@sendgrid/mail');
 
 
-// add vercel environment variable
-mail.setApiKey(process.env.SENDGRID_API_KEY);
+// fix: vercel environment variable doesn't work
+mail.setApiKey("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");
 
 export default (req, res) => {
     const body = JSON.parse(req.body);
