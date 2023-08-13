@@ -61,9 +61,10 @@
   .image-fun {
     position: relative;
     overflow: hidden;
+    /* width: 750px; */
   }
   .image-fun::after {
-    content: "لحد ما نتصور صورة عدلة";
+    content: "😐 temporary image";
     position: absolute;
     font-size: 32px;
     color: white;

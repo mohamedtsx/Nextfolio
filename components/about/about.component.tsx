@@ -28,7 +28,7 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="relative">
+                    <div className="relative  image-fun">
                         <Image 
                             src={MyPhoto}
                             alt="mohamed-photo"

@@ -15,7 +15,7 @@ module.exports = {
     'bg-nextfolio',
     'bg-nextblog',
     'bg-notes-app',
-    'bg-job-board'
+    'bg-job-board',
   ],
   theme: {
     container: {
