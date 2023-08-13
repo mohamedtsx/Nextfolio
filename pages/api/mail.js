@@ -18,7 +18,7 @@ export default (req, res) => {
     const data = {
         to: body.email,
         from: 'mohamed@khalidjs.com',
-        subject: 'Thank you',
+        subject: 'Contact Request',
         text: message,
         html: message.replace(/\r\n/g, '<br>' )
     }
